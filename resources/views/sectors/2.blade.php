@@ -73,11 +73,11 @@
 
 					<div class="col-md-4">
 						<h2 style="margin-top: 50%">Caption Text Here</h2>
-						</div>
+					</div>
 						
-						<div class="col-md-8">
-							<img style="max-height: 400px ; margin: 20px auto ;" src="{{ asset('images/sectors/body/administration.jpg') }}" class="img img-responsive img-thumbnail">
-						</div>
+					<div class="col-md-8">
+						<img style="max-height: 400px ; margin: 20px auto ;" src="{{ asset('images/sectors/body/administration.jpg') }}" class="img img-responsive img-thumbnail">
+					</div>
 
 					<div class="row">
 						<p style="line-height:30px">

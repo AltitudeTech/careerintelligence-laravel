@@ -1,11 +1,23 @@
-{{-- <div>
+<div>
+	<style>
+		nav ul{
+			list-style: none ;
+			display: flex ;
+			justify-content: flex-end ;
+		}
+		nav ul li a{
+			display: block ;
+			padding: 10px 15px ;
+			color : #fff ;
+		}
+	</style>
 	<nav>
 		<ul>
-			<li><a href=""> Join Us</a></li>
-			<li><a href=""> CITV</a></li>
+			<li><a href="{{ route('join-us') }}">Join Us</a></li>
+			<li><a href="{{ route('citv') }}"> CITV</a></li>
 		</ul>
 	</nav>
-</div> --}}
+</div>
 
 <nav class="navbar navbar-default">
 	<div class="navbar-header">
