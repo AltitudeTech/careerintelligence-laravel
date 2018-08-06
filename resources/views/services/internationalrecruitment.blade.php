@@ -6,7 +6,7 @@
 	@parent
 	<style type="text/css">
 		.banner1 {
-		    background: url({{ asset('images/services/8.jpg')}}) no-repeat  0px 0px;
+		    background: url({{ asset('images/services/international.jpg')}}) no-repeat  0px 0px;
 		    background-size: cover;
 		    background-position: center;
 		    -webkit-background-size: cover;

@@ -210,12 +210,12 @@ li#callbacks1_s3 {
 	position: absolute;
     text-align: center;
 	box-sizing: border-box ;
-	background-color: #6eab42 ; ;
+	background-color: #6eab42 ;
     font-size: 50px;
 	color: #fff;
 	bottom: 10px ;
 	padding:20px 40px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 600;
 }
 .banner_text h3,.banner_text h2 {

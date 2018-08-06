@@ -250,6 +250,13 @@
 						<a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/6.gif') }}"></a>
 					</div>
 				  </div>
+				  <div class="row">
+						<!-- 4:3 aspect ratio --> 
+						<div class="embed-responsive embed-responsive-4by3">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/VS6UOyTb5eU" 
+						frameborder="0" allowfullscreen></iframe>
+						</div>
+				  </div>
 
 
 		</div>

@@ -64,26 +64,14 @@
 	<div class="agileits_agile_about">
 		<div class="container">	
 			<div class="row">
+				<div class="col-md-12">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio magni laborum aliquid deleniti voluptatum corrupti dicta commodi nulla, incidunt, reiciendis corporis consequatur! Unde vero asperiores cum aut eius placeat!
+					</p>
+				</div>
 					<div class="col-md-9">
-
-						<div class="row">	
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-                            <br/>
-                            <br/>
-                            <br/>
+						<div class="row" style="display:grid; grid-template-column: 200px 1fr">	
+							<img src="{{asset('images/citv-cover.png')}}" />
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

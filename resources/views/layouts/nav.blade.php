@@ -32,7 +32,7 @@
 						<li><a href="{{ route('mission') }}">Mission & Values </a></li>
 						<li><a href="{{ route('companystructure') }}">Company Structure</a></li>
 						<li><a href="{{ route('franchise') }}">franchise</a></li>
-						<li><a href="{{ route('citv') }}">CITV</a></li>
+						{{-- <li><a href="{{ route('citv') }}">CITV</a></li> --}}
 						<li><a href="{{ route('market') }}">Market</a></li>
 						<li><a href="{{ route('citc') }}">CITC</a></li>
 						<li><a href="{{ route('join-us') }}">Join Us</a></li>
