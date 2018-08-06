@@ -77,13 +77,11 @@
 					<div class="gallery-grids">
 						<div class="row">
 							<div class="well" style="margin-top: 20px;background-color: #EC971F;">
-								<h1 style="font-size: 22px; font-weight: bolder;">JOIN CAREER INTELLIGENCE ACROSS AFRICA</h1>
+								<h1 style="font-size: 22px; font-weight: bolder;">RECRUITING NOW</h1>
 							</div>
 						</div>
 						<div class="row">
 							<div class="well" style="margin-top: 20px;">
-								<h2>Recruiting now</h2>
-								<hr>
 									<img src="images/specmail.jpg" class="img-responsive" alt="Specialization - CI" />
 								<p class="lead" style="margin-top: 20px;">
 									In the complicated world of finding the best talent, our unparalleled recruiting expertise means the people you want to talk to are already talking to us.
@@ -91,43 +89,6 @@
 							</div>	
 						</div>
 
-						<div class="row">
-							<div class="well" style="margin-top: 20px;">
-								<p class="lead">
-									To register a vacancy please click below and enter the details in the form.
-								</p>
-								<a href="{{ route('recruitment.create') }}" class="btn btn-warning btn-block">Recruiting Now ?</a>
-							</div>	
-						</div>
-
-						<div class="row">
-							<div class="well" style="margin-top: 20px;">
-								<h4>Search for Candidate</h4>
-								<hr>
-								<p class="lead text-primary" style="margin-top: 20px;">
-									Advanced Search
-								</p>
-								<div class="clearfix"></div>
-								<div class="col-md-6">
-									<label for="">
-										Enter Keywords/Reference No.
-									</label>
-									<input type="text" class="form-control" name="">
-								</div>
-
-								<div class="col-md-6">
-									<label for="">
-										Enter Location
-									</label>
-									<input type="text" class="form-control" name="">
-								</div>
-								<div class="col-md-6" style="margin-top : 10px ;">
-									<input type="button" value="Search" class="btn btn-lg btn-warning" name="">
-								</div>
-									<div class="clearfix"></div>
-
-							</div>	
-						</div>
 						
 
 						{{-- <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">

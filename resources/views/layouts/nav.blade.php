@@ -1,11 +1,3 @@
-{{-- <div>
-	<nav>
-		<ul>
-			<li><a href=""> Join Us</a></li>
-			<li><a href=""> CITV</a></li>
-		</ul>
-	</nav>
-</div> --}}
 
 <nav class="navbar navbar-default">
 	<div class="navbar-header">
@@ -53,9 +45,6 @@
 				
 
 				<li class="dropdown
-					@if ($title == 'Login' || $title == 'Register')
-						{{ 'active' }}
-					@endif
 				"><a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Services <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="{{ route('permanentplacement') }}">Permanent Placement</a></li>
@@ -72,11 +61,13 @@
 						<li><a href="{{ route('executiveservices') }}">Executive Services</a></li>
 					</ul>
 			  </li>
-			  <li class="
-					@if ($title == 'Sector')
-						{{ 'active' }}
-					@endif
-				"><a href="{{ route('sector') }}">Sectors</a></li>
+				<li class="dropdown
+				"><a href="#" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Sectors <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						@include('sectordrop')
+					</ul>
+			  </li>
+
 				{{-- <li class="dropdown
 					@if ($title == 'Partner')
 						{{ 'active' }}
@@ -100,7 +91,19 @@
 						<li><a href="#" data-toggle="modal" data-target="#ModalLoginForm" data-dismiss="modal">Candidate</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#empModalLoginForm">Employer</a></li>
 					</ul>
-			  	</li>
+				  </li>
+				<li class="
+					@if ($title == 'Join Us')
+						{{ 'active' }}
+					@endif
+				"><a href="{{ route('join-us') }}">JOIN US</a></li>
+				<li class="
+					@if ($title == 'CITV')
+						{{ 'active' }}
+					@endif
+				"><a href="{{ route('citv') }}"> CITV</a></li>
+
+
 				<li class="
 					@if ($title == 'Contact')
 						{{ 'active' }}

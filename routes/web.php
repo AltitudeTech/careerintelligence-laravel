@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('index')->with('title', 'Home');
 })->name('index');
 
+
 Route::get('index', function () {
     return view('index')->with('title', 'Home');
 })->name('index');
@@ -57,9 +58,13 @@ Route::get('companystructure', function(){
 		return view('companystructure')->with('title', 'Company Structure');
 	})->name('companystructure') ;
 
-	Route::get('registration', function(){
-		return view('registration')->with('title', 'Registration');
-	})->name('registration') ;
+	Route::get('employer', function(){
+		return view('employer')->with('title', 'employer');
+	})->name('employer') ;
+
+	Route::get('candidate', function(){
+		return view('candidate')->with('title', 'candidate');
+	})->name('candidate') ;
 
 Route::get('mission', function(){
 		return view('mission')->with('title', 'Mission & Values');
