@@ -207,10 +207,14 @@ li#callbacks1_s3 {
     padding: 18em 0 19em;
 }
 .banner1 h2 {
+	position: absolute;
     text-align: center;
-    padding-top: 4em;
+	box-sizing: border-box ;
+	background-color: #6eab42 ; ;
     font-size: 50px;
-    color: #fff;
+	color: #fff;
+	bottom: 0px ;
+	padding:20px 40px;
     text-transform: capitalize;
     font-weight: 600;
 }
@@ -634,7 +638,6 @@ ul.nav.navbar-nav .hvr-bounce-to-bottom:before {
 }
 .aboutleft h3 {
     text-align: left;
-    margin-top: 2em;
     line-height: 30px;
     text-transform: uppercase;
     font-size: 20px;
@@ -673,8 +676,7 @@ ul.nav.navbar-nav .hvr-bounce-to-bottom:before {
 
 .aboutright img {
     width: 75%;
-    margin: 5em 0 0 7em;
-    text-align: center;
+	text-align: center;
 }
 .aboutright {
 	position:relative;
@@ -686,6 +688,49 @@ ul.nav.navbar-nav .hvr-bounce-to-bottom:before {
     bottom: -50%;
     width: 300px;
     height: 300px;
+}
+
+.candidaiteImage{
+	box-sizing: border-box ;
+	background-image : url(../images/candidate-x.jpg) ;
+	height: 240px ;
+	background-position: 0 ;
+	background-size: 100% ;
+	background-repeat: no-repeat ;
+}
+.employerImage{
+	box-sizing: border-box ;
+	background-image : url(../images/employers-x.jpg) ;
+	height: 240px ;
+	background-position: 0 ;
+	background-size: 100% ;
+	background-repeat: no-repeat ;
+}
+
+.candidaiteImage span, .employerImage span{
+	position: absolute;
+	text-align: center;
+	font-size: 15px;
+	margin: auto ;
+	color: #fff ;
+	padding: 5px ;	
+	width: 120px ;
+	display: block ;
+	bottom: 120px;
+	background-color: green ;
+}
+
+
+.aboutleft a{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bolder;
+	letter-spacing: 1px ;
+	color: #000 ;
+	padding: 10px 15px ;
+	width: 150px;
+	margin: auto;
+	background-color: #b2b2b2 ;
 }
 /* //About */
 

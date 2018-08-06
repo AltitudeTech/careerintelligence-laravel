@@ -33,7 +33,7 @@
 									<div class="banner_text">
 									<div class="container">
 										<span>GLOBAL CAREER EXPERTS</span>
-										<h2>Technology</h2>
+										<h2>Latest Technology</h2>
 										<div class="more-button text-center">
 											<a href="#" class="hvr-bounce-to-bottom scroll" data-toggle="modal" data-target="#modaltechnology">Read More</a>
 										</div>
@@ -51,7 +51,7 @@
 									<div class="banner_text">
 									<div class="container">
 										<span>GLOBAL CAREER EXPERTS</span>
-										<h3>Competitive</h3>
+										<h3>Finest Consultants</h3>
 										<div class="more-button text-center">
 											<a href="#" class="hvr-bounce-to-bottom scroll" data-toggle="modal" data-target="#modalcompetitive">Read More</a>
 										</div>
@@ -69,7 +69,7 @@
 									<div class="banner_text">
 									<div class="container">
 										<span>GLOBAL CAREER EXPERTS</span>
-										<h3>Successfull</h3>
+										<h3>GLOBAL AWARD WINNERS</h3>
 										<div class="more-button text-center">
 											<a href="#" class="hvr-bounce-to-bottom scroll" data-toggle="modal" data-target="#modalsuccess">Read More</a>
 										</div>
@@ -87,7 +87,7 @@
 									<div class="banner_text">
 									<div class="container">
 										<span>CAREER EXPERTS</span>
-										<h3>DISCUSSION</h3>
+										<h3>GLOBAL BEST PRICE</h3>
 										<div class="more-button text-center">
 											<a href="#" class="hvr-bounce-to-bottom scroll" data-toggle="modal" data-target="#modalcollaboration">Read More</a>
 										</div>
@@ -192,41 +192,44 @@
 @section('body')
 	<div class="about" id="welcome">
 	<div class="container">
-		<div class="row">
-		<div class="col-md-3">
-			<a href="{{ route('registration') }}" style="border-radius: 0px ;  padding-top: 13% ; height: 100px ; margin-bottom: 0px ;" class="btn btn-block btn-lg btn-primary">CANDIDATE</a>
-		</div>	
-		<div class="col-md-6">
-			<h3 style="margin-top: 40px ;"> group of people authorized to act </h3>
-			<h3><span>Welcome</span> to corp</h3>
-		</div>	
-		<div class="col-md-3">
-			<a href="{{ route('registration') }}" style="border-radius: 0px ;  padding-top: 13% ; height: 100px ; margin-bottom: 0px ;" class="btn btn-block btn-lg btn-primary">EMPLOYER</a>
-		</div>
-		</div>
 		<div class="col-md-8 aboutleft">
-			<h3>corporation is a legal entity that is separate and distinct from its owners</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
-			<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-			<p>Vestibulum dictum porta nisl non lacinia. Integer laoreet ultricies nunc, vitae eleifend elit rutrum sit amet. In elementum,
-			magna id pellentesque auctor, risus dolor congue urna, nec dapibus eros magna a odio. Duis laoreet 
-			risus eget malesuada consequat. Nunc et tortor dignissim, laoreet est eget</p>
-			<p>Duis commodo auctor libero at ultrices. Quisque mi dui, condimentum ac tellus vel, gravida aliquam nunc. Ut ac auctor velit.</p>
+			<div class="row">
+				<div class="col-md-7" style="text-align:center">
+					<div class="candidaiteImage">
+						<span>CANDIDATE</span>
+					</div>
+					<p style="font-weight:bolder">Ready to make the smart move for your career ?</p>
+					<a style="margin-top: 20px; display:block;"  href="{{ route('candidate') }}">Register Now</a>
+				</div>
+				<div class="col-md-5">
+						<p style="padding:0; margin-top:-5px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
+						<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 80px ;">
+				<div class="col-md-7" style="text-align:center">
+					<div class="employerImage">
+						<span>EMPLOYER</span>
+					</div>
+					<p style="font-weight:bolder">Ready to make the smart move for your career ?</p>
+					<a style="margin-top: 20px; display:block;"  href="{{ route('employer') }}">Register Now</a>
+				</div>
+				<div class="col-md-5">
+						<p style="padding:0; margin-top:-5px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
+						<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+			</div>
+			
 		</div>
-		<div class="col-md-4 aboutright">
-			{{-- <img src="images/home/homeoverlap.jpg" alt="" />
-			<div class="aboutimg">
-				<img src="images/home/homeoverlap.png" alt="" />
-			</div> --}}
-		
+		<div class="col-md-4 aboutright">		
 				<style type="text/css">
 					.thumbnail img{
 						margin : auto ;
 					}
 				</style>
-				  <div class="row" style="margin-top : 50px">
+				  <div class="row">
 				  <h3 style="text-align:center">Featured Employers</h3>
 					<div class="col-md-6">
 					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/1.gif') }}"></a>
@@ -252,24 +255,43 @@
 		</div>
 		<div class="clearfix"></div>
 		<br><br><br><br>
-		<div class="row">
-	
-			<div class="col-md-6" >
-				<img class="img img-responsive img-thumbnail" width="100%" src="images/ai.png" alt="" />
+		<div class="row" style="text-align:center">
+			<h2 style="margin-bottom: 20px; font-weight: bolder;">LOREM IPSUM ENIM VENIM QUIS</h2>
+			<style>
+				.flexSection{
+					display: flex ;
+					flex-wrap: wrap ;
+					justify-content: space-between ;
+				}
+				.flexSection div{
+					padding: 20px; 
+					flex: 0 1 300px ;
+					width: 100% ;
+					background-color: #c4c4c4;
+				}
+				.flexSection div span{
+					font-size: 6em ;
+					color: black ;
+					font-weight: bolder ;
+				}
+				.flexSection div p{
+					font-size: 2em ;
+				}
+			</style>
+			<div class="flexSection">
+				<div>
+					<span>16</span>
+					<p>Sectors</p>
+				</div>
+				<div>
+					<span>12</span>
+					<p>Services</p>
+				</div>
+				<div>
+					<span>4</span>
+					<p>Continents</p>
+				</div>
 			</div>
-
-			<div class="col-md-6 aboutleft2">
-				<h3>corporation is a legal entity that is separate and distinct from its owners</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s but also the leap into electronic typesetting dolor amet.</p>
-				<p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-				It has survived not only five centuries, but also the leap into electronic typesetting.</p>
-				<p>Vestibulum dictum porta nisl non lacinia. Integer laoreet ultricies nunc, vitae eleifend elit rutrum sit amet. In elementum,
-				magna id pellentesque auctor, risus dolor congue urna, nec dapibus eros magna a odio. Duis laoreet 
-				risus eget malesuada consequat. Nunc et tortor dignissim, laoreet est eget</p>
-				<p>Duis commodo auctor libero at ultrices.</p>
-			</div>
-			<div class="clearfix"></div>
 		</div>
 
 
@@ -289,7 +311,7 @@
 						<!-- <i class="fa fa-server" aria-hidden="true"></i> -->
 					</div>
 					<div class="wthree-services-info">
-						<h5><a href="{{ route('internationalrecruitment') }}">International Recruitments</a></h5>
+						<h5><a href="{{ route('internationalrecruitment') }}">International Recruitment</a></h5>
 						<span></span>
 					</div>
 				</div>
