@@ -7,7 +7,8 @@
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('mission') }}">Mission & Values </a></li>
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('companystructure') }}">Company Structure</a></li>
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('franchise') }}">Franchise</a></li>
-				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('citv') }}">CITV</a></li>
+				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('market') }}">Market</a></li>
+				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('citc') }}">CITC</a></li>
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('join-us') }}">Join Us</a></li>
 			</ul>
 		</div>
@@ -18,6 +19,7 @@
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('marketintel') }}">Market Intelligence</a></li>
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('globalhelpdesk') }}">Global Help Desk</a></li>
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('events') }}">Events</a></li>
+				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('citv') }}">CITV</a></li>
 				<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('faqs') }}">FAQs</a></li>
 			</ul>
 			<!-- 

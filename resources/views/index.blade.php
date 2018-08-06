@@ -87,7 +87,7 @@
 									<div class="banner_text">
 									<div class="container">
 										<span>CAREER EXPERTS</span>
-										<h3>GLOBAL BEST PRICE</h3>
+										<h3>GLOBAL BEST PRACTICE</h3>
 										<div class="more-button text-center">
 											<a href="#" class="hvr-bounce-to-bottom scroll" data-toggle="modal" data-target="#modalcollaboration">Read More</a>
 										</div>

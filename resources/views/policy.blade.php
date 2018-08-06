@@ -6,7 +6,7 @@
 	@parent
 	<style type="text/css">
 		.banner1 {
-		    background: url({{ asset('images/services/bbbg.jpg')}}) no-repeat  0px 0px;
+		    background: url({{ asset('images/customHeader.jpg')}}) no-repeat  0px 0px;
 		    background-size: cover;
 		    background-position: center;
 		    -webkit-background-size: cover;
@@ -14,11 +14,10 @@
 		    -o-background-size: cover;
 		    -ms-background-size: cover;
 		    position: relative;
-			min-height:65px;
-			height: 65px ;
+			min-height:500px;
 		}
 		.wthree-different-dot1 {
-			min-height:65px;
+			min-height:500px;
 		}
 		.agileits_agile_about p{
 			letter-spacing: 1px ;
@@ -43,6 +42,9 @@
 				</div>
 			</div>
 			<!-- //header -->
+			<h2 style="background-color: transparent ;
+			bottom: 0px ;
+			right : 0px ;">Privacy Policy</h2>
 		</div>
 	</div>
 

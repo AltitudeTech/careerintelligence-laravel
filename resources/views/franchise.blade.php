@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title','franchise')
+@section('title','Franchise')
 
 @section('css')
 	@parent

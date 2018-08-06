@@ -6,7 +6,7 @@
 	@parent
 	<style type="text/css">
 		.banner1 {
-		    *background: url({{ asset('images/services/10.jpg')}}) no-repeat  0px 0px;
+		    background: url({{ asset('images/sectors/oilandgas.jpg')}}) no-repeat  0px 0px;
 		    background-size: cover;
 		    background-position: center;
 		    -webkit-background-size: cover;
@@ -76,7 +76,7 @@
 					</div>
 						
 					<div class="col-md-8">
-						<img style="max-height: 400px ; margin: 20px auto ;" src="{{ asset('images/sectors/body/energy-oil-and-gas.jpg') }}" class="img img-responsive img-thumbnail">
+						<img style="max-height: 400px ; margin: 20px auto ;" src="{{ asset('images/sectors/body/oilandgas.jpeg') }}" class="img img-responsive img-thumbnail">
 					</div>
 
 					<div class="row">

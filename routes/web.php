@@ -98,6 +98,14 @@ Route::get('citv', function(){
 		return view('citv')->with('title', 'CITV');
 	})->name('citv') ;
 
+	Route::get('market', function(){
+		return view('market')->with('title', 'Market');
+	})->name('market') ;
+
+	Route::get('citc', function(){
+		return view('citc')->with('title', 'CITC');
+	})->name('citc') ;
+
 Route::prefix('partner')->group(function () {
 
 	Route::get('google', function(){
