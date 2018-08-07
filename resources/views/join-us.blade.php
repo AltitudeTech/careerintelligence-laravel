@@ -76,16 +76,230 @@
 				<div class="col-md-8">
 					<div class="gallery-grids">
 						<div class="row">
-							<div class="well" style="margin-top: 20px;background-color: #EC971F;">
+							<div class="well" style="margin-top: 20px;background-color: #03111E; color : #fff;">
 								<h1 style="font-size: 22px; font-weight: bolder;">RECRUITING NOW</h1>
 							</div>
 						</div>
 						<div class="row">
 							<div class="well" style="margin-top: 20px;">
-									<img src="images/specmail.jpg" class="img-responsive" alt="Specialization - CI" />
+									{{-- <img src="images/specmail.jpg" class="img-responsive" alt="Specialization - CI" /> --}}
 								<p class="lead" style="margin-top: 20px;">
 									In the complicated world of finding the best talent, our unparalleled recruiting expertise means the people you want to talk to are already talking to us.
 								</p>
+								<ul class="list-group">
+									<style>
+										p{
+											font-size: 14px;
+											display: block;
+											font-weight: 600;
+										}
+										li.list-group-item{
+											padding-top: 20px ;
+											padding-bottom: 20px;
+											border-left: none ;
+											border-left: none ;
+											border-right: none;
+										}
+									</style>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div style="display:grid; grid-template-columns: repeat(4, auto)">
+										<img src="{{asset('images/altitudelogo.png')}}" style="width:100px; height:50px; background-color:#000;" alt="CompanyLogo">
+											<div>
+												<p>Senior Back-end Developer</p>
+												<span style="display:block; font-size:12px">Altitude-Technology Worldwide</span>
+											</div>
+											<div>
+												<p><span style="color:green" class="glyphicon glyphicon-map-marker"></span> Austin, Texas</p>
+												<span style="display:block; text-indent:20px; font-size:12px">Fulltime</span>
+											</div>
+											<div style="text-align:center;">
+												<span style="display:block;font-size:12px;">Today</span>
+												<button class="btn btn-success" style="font-size:10px; padding-top:2px;padding-bottom:2px">Apply</button>
+											</div>
+											
+										</div>
+									</li>
+								</ul>
 							</div>	
 						</div>
 

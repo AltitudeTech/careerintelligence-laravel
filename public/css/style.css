@@ -1359,27 +1359,26 @@ ul.w3agile_footer_grid_list li span {
 .agileinfo_map_color_grid_left h4{
 	font-weight:600;
 	color:#000;
+	text-indent: 10px;
 	font-size:1.2em;
+	text-align: left ;
 	padding-bottom:.5em;
 	position:relative;
 	margin-bottom:1em;
 }
-.agileinfo_map_color_grid_left h4 span{
-    padding-right: 1em;
-    color: #6EAB42;
-    font-size: 1.4em;
-}
+
 .agileinfo_map_color_grid_left h4:after{
 	content: '';
     background: #202020;
-    height: 2px;
-    width: 23%;
-    position: absolute;
-    bottom: 0%;
-    left: 19%;
+    height: 120%;
+    width: 2px;
+	position: absolute;
+	left: 0;
+	top: -8px ;
 }
 .agileinfo_map_color_grid_left p{
 	color:#202020;
+	text-align: left ;
 	line-height:2em;
     font-size: 15px;
     letter-spacing: 2px;

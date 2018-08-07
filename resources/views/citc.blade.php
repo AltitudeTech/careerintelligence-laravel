@@ -83,7 +83,15 @@
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 									proident,deserunt mollit anim id est laborum.
 								</p>
-								<span style="color:red">Read More >>></span>
+								<span style="color:red; cursor:pointer" data-toggle="collapse" data-target="#demo">See More >>></span>
+								<p id="demo" class="collapse">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
 								<br/>
 								<br/>
 								<br/>
