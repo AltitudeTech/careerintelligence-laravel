@@ -53,7 +53,7 @@
 						<li><a href="{{ route('internships') }}">Internships</a></li>
 						<li><a href="{{ route('outplacement') }}">Outplacement</a></li>
 						<li><a href="{{ route('featureddigitalcampaign') }}">Featured Digital Campaign</a></li>
-						<li><a href="{{ route('digitalizedvideo') }}">Digitalized Video Assessment and  Interview</a></li>
+						<li><a href="{{ route('digitalizedvideo') }}">Video Assessment and Interview</a></li>
 						<li><a href="{{ route('recruitmentprocess') }}">Recruitment Process Outsourcing</a></li>
 						<li><a href="{{ route('internationalrecruitment') }}">International Recruitment</a></li>
 						<li><a href="{{ route('hr-services') }}">HR Services</a></li>

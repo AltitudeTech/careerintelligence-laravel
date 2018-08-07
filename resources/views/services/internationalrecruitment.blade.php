@@ -91,7 +91,7 @@
 
 						<div class="row" style="margin-top: 20px ;">
 
-							<img style="max-height: 400px ; width: 50%; margin: 20px ; margin-top: 0px ; " src="{{ asset('images/services/projectb.jpg') }}" class="img img-responsive img-thumbnail pull-left">	
+							<img style="max-height: 400px ; width: 50%; margin: 20px ; margin-top: 0px ; " src="{{ asset('images/services/international-body.jpg') }}" class="img img-responsive img-thumbnail pull-left">	
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

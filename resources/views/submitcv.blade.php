@@ -6,7 +6,7 @@
 	@parent
 	<style type="text/css">
 		.banner1 {
-		    background: url({{ asset('images/sendcv/sendcvmain.png') }} ) no-repeat 0px 0px;
+		    background: url({{ asset('images/sendcv/sendcvmain.jpg') }} ) no-repeat 0px 0px;
 		    background-size: cover;
 		    -webkit-background-size: cover;
 		    -moz-background-size: cover;

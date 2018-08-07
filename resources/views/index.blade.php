@@ -134,7 +134,7 @@
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4>Competitive</h4>
-							<img src="{{ asset('images/home/competitive.png') }}" alt=" " class="img-responsive">
+							<img src="{{ asset('images/home/competitive.jpg') }}" alt=" " class="img-responsive">
 							<h5>Success your business </h5>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
 						</div>
@@ -164,7 +164,7 @@
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4>Global Expertise With Access to World Class Talents</h4>
-							<img src="{{ asset('images/home/pob.png') }}" alt=" " class="img-responsive">
+							<img src="{{ asset('images/home/pob.jpg') }}" alt=" " class="img-responsive">
 							<p>Our People, Technology and Processes synergizes to provide employers the best talents for each vacant positions, at record speed and precision. We have the most productive and job-ready talents with cutting edge skill sets and diverse experiences.</p>
 						</div>
 					</div>
@@ -212,7 +212,7 @@
 					<div class="employerImage">
 						<span>EMPLOYER</span>
 					</div>
-					<p style="font-weight:bolder">Ready to make the smart move for your career ?</p>
+					<p style="font-weight:bolder">Ready to make the smart move for your Company ?</p>
 					<a style="margin-top: 20px; display:block;"  href="{{ route('employer') }}">Register Now</a>
 				</div>
 				<div class="col-md-5">
