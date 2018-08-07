@@ -10,7 +10,7 @@
 	<a href="{{ route('internationalrecruitment') }}" class="list-group-item">International Recruitment</a>
 	<a href="{{ route('hr-services') }}" class="list-group-item">HR Services</a>
 	<a href="{{ route('labour-market-research') }}" class="list-group-item">Labour Market Research</a>
-	<a href="{{ route('salaryandremuneration') }}" class="list-group-item">Salaries & Remuneration Bmarking</a>
+	<a href="{{ route('salaryandremuneration') }}" class="list-group-item">Salaries & Remuneration Bench Marking</a>
 	<a href="{{ route('executiveservices') }}" class="list-group-item">Executive Services</a>
 
 	<a class="list-group-item active text-center">SECTORS</a>

@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<!-- //header -->
-					<h2>CITC</h2>
+					<h2>Career Intelligence Training Center</h2>
 		</div>
 	</div>
 
@@ -70,22 +70,26 @@
 					</p>
 				</div>
 					<div class="col-md-9">
-						<div class="row" style="display:grid; grid-template-column: 200px 1fr">	
-							<img src="{{asset('images/citv-cover.png')}}" />
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+						<div style="display:grid; grid-template-columns: 1fr 2fr; grid-gap:10px">
+							<div>
+								<img style="width:100%;" src="{{asset('images/citv-cover.png')}}" />
+							</div>
+							<div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident,deserunt mollit anim id est laborum.
+								</p>
+								<span style="color:red">Read More >>></span>
+								<br/>
+								<br/>
+								<br/>
+								@include('serviceform')
+
+							</div>
 						</div>
 					</div>
 					<div class="col-md-3">

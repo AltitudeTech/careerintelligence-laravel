@@ -216,7 +216,7 @@ li#callbacks1_s3 {
 	bottom: 10px ;
 	padding:20px 40px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
 }
 .banner_text h3,.banner_text h2 {
     color: #FFFFFF;
@@ -984,6 +984,11 @@ ul.nav.navbar-nav .hvr-bounce-to-bottom:before {
     position: absolute;
     left: 0;
     top: 1px;
+}
+
+.input-xlarge{
+	width: 60% ;
+	height: 30px ;
 }
 /*-- social-icons --*/
 ul.top-links li {
