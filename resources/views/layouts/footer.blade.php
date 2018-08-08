@@ -68,6 +68,11 @@
 <!-- copyright -->
 <div class="wthree_copy_right">
 	<div class="container">
+		<p style="width:15%; margin: 20px auto;">
+			<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=49Efa6zFYjD2qMZvBasSDyxtZP5HrA2Y2Eo6GajHcVq2pHUficj2q3nmTnTB"></script></span>
+		</p>
+		<img style="width:15%;right:0" src="{{asset('images/mobiledownload.png')}}" alt="">
+		<div class="clearfix"></div>
 		<p class="privacylinks">
 			<a href="{{ route('policy') }}">Privacy Policy</a>  <span>|</span>
 			<a href="{{ route('cookie') }}">Cookie Policy</a> <span>|</span>

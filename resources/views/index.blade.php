@@ -134,7 +134,7 @@
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4>Competitive</h4>
-							<img src="{{ asset('images/home/competitive.png') }}" alt=" " class="img-responsive">
+							<img src="{{ asset('images/home/competitive.jpg') }}" alt=" " class="img-responsive">
 							<h5>Success your business </h5>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
 						</div>
@@ -164,7 +164,7 @@
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">&times;</button>
 							<h4>Global Expertise With Access to World Class Talents</h4>
-							<img src="{{ asset('images/home/pob.png') }}" alt=" " class="img-responsive">
+							<img src="{{ asset('images/home/pob.jpg') }}" alt=" " class="img-responsive">
 							<p>Our People, Technology and Processes synergizes to provide employers the best talents for each vacant positions, at record speed and precision. We have the most productive and job-ready talents with cutting edge skill sets and diverse experiences.</p>
 						</div>
 					</div>
@@ -212,7 +212,7 @@
 					<div class="employerImage">
 						<span>EMPLOYER</span>
 					</div>
-					<p style="font-weight:bolder">Ready to make the smart move for your career ?</p>
+					<p style="font-weight:bolder">Ready to make the smart move for your Company ?</p>
 					<a style="margin-top: 20px; display:block;"  href="{{ route('employer') }}">Register Now</a>
 				</div>
 				<div class="col-md-5">
@@ -232,30 +232,31 @@
 				  <div class="row">
 				  <h3 style="text-align:center">Featured Employers</h3>
 					<div class="col-md-6">
-					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/1.gif') }}"></a>
+					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/apple.png') }}"></a>
 					</div>          
 					<div class="col-md-6">
-					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/2.jpg') }}"></a>
+					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/apple.png') }}"></a>
 					</div>
 					<div class="col-md-6">
-					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/3.gif') }}"></a>
+					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/apple.png') }}"></a>
 					</div>
 					<div class="col-md-6">
-					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/4.jpg') }}"></a>
+					  <a class="thumbnail" href="#"><img alt="" src="{{ asset('images/apple.png') }}"></a>
 					</div>
 					<div class="col-md-6">
-						<a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/5.gif') }}"></a>
+						<a class="thumbnail" href="#"><img alt="" src="{{ asset('images/apple.png') }}"></a>
 					</div>          
 					<div class="col-md-6">
-						<a class="thumbnail" href="#"><img alt="" src="{{ asset('images/emp/6.gif') }}"></a>
+						<a class="thumbnail" href="#"><img alt="" src="{{ asset('images/apple.png') }}"></a>
 					</div>
 				  </div>
-				  <div class="row">
-						<!-- 4:3 aspect ratio --> 
+				  <div class="row" style="text-align:center;padding:0">
+						{{-- <!-- 4:3 aspect ratio --> 
 						<div class="embed-responsive embed-responsive-4by3">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/VS6UOyTb5eU" 
 						frameborder="0" allowfullscreen></iframe>
-						</div>
+						</div> --}}
+						<img src="{{asset('images/youtubeImage.jpg')}}" style="padding:0;margin:0" alt="Career Intelligence Video Here" width="100%">
 				  </div>
 
 

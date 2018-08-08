@@ -6,7 +6,7 @@
 	@parent
 	<style type="text/css">
 		.banner1 {
-		    background: #000 url({{ asset('images/jobsearch/js.png')}}) no-repeat  0px 0px;
+		    background: #000 url({{ asset('images/jobsearch/js.jpg')}}) no-repeat  0px 0px;
 		    background-size: contain;
 		    background-position: center;
 		    -webkit-background-size: contain;

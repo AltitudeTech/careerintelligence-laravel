@@ -160,11 +160,11 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //header --*/
 /*-- banner --*/
 li#callbacks1_s0 {
-    background: url(../images/home/technology.png) no-repeat 0px 0px;
+    background: url(../images/home/technology.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 li#callbacks1_s1 {
-    background: url(../images/home/competitive.png) no-repeat 0px 0px;
+    background: url(../images/home/competitive.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 li#callbacks1_s2 {
@@ -172,7 +172,7 @@ li#callbacks1_s2 {
     background-size: cover;
 }
 li#callbacks1_s3 {
-    background: url(../images/home/collaboration.png) no-repeat 0px 0px;
+    background: url(../images/home/collaboration.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .banner1 {
@@ -1112,7 +1112,7 @@ ul.top-links li a i.fa:hover {
 }
 /*-- //clients--*/
 .statbottom {
-    background: url(../images/home/pob.png) no-repeat 0px 0px;
+    background: url(../images/home/pob.jpg) no-repeat 0px 0px;
     background-size: cover;
     padding: 8em 0;
 }

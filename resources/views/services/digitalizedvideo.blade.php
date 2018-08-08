@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<!-- //header -->
-					<h2>Digitalized Video</h2>
+					<h2>Video Assessment and Interview</h2>
 		</div>
 	</div>
 
