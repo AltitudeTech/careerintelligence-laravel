@@ -83,8 +83,8 @@
 									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 									proident,deserunt mollit anim id est laborum.
 								</p>
-								<span style="color:red; cursor:pointer" data-toggle="collapse" data-target="#demo">See More >>></span>
-								<p id="demo" class="collapse">
+								<span style="color:red; cursor:pointer" data-toggle="collapse" data-target="#citc1">See More >>></span>
+								<p id="citc1" class="collapse">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -92,11 +92,32 @@
 									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 								</p>
-								<br/>
-								<br/>
-								<br/>
+							</div>
+						</div>
+						<div style="display:grid; grid-template-columns: 1fr 2fr; grid-gap:10px">
+							<div>
+								<img style="width:100%;" src="{{asset('images/citv-cover2.png')}}" />
+							</div>
+							<div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident,deserunt mollit anim id est laborum.
+								</p>
+								<span style="color:red; cursor:pointer" data-toggle="collapse" data-target="#citc2">See More >>></span>
+								<p id="citc2" class="collapse">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+								<br/><br/><br/><br/>
 								@include('serviceform')
-
 							</div>
 						</div>
 					</div>
