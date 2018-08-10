@@ -14,9 +14,8 @@
 	<a href="{{ route('executiveservices') }}" class="list-group-item">Executive Services</a>
 
 	<a class="list-group-item active text-center">SECTORS</a>
-	@foreach (App\Admin\Sector::take(11)->get() as $sector)
+	@foreach (App\Admin\Sector::all() as $sector)
 		<a href="{{ route('sectordisplay', ['secId'=> $sector->id ]) }}" class="list-group-item">{{ $sector->name }}</a>
 	@endforeach
-	<a href="{{ route('sector') }}" class="list-group-item text-right">More Sectors</a>
-	
+	{{-- <a href="{{ route('sector') }}" class="list-group-item text-right">More Sectors</a> --}}
 </div>
