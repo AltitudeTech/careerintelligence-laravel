@@ -36,7 +36,7 @@
 					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('candidate') }}">Candidates</a></li>
 					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('employer') }}">Employers</a></li>
 					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('contact') }}">Contact Us</a></li>
-					<li style="border: 2px solid #c0392b ; width: 200px ; padding: 10px 0px ;"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('executiveservices') }}">EXECUTIVE SERVICES</a></li>
+					<li style="border: 2px solid #c0392b ; width: 200px ; padding: 10px 0px ;"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> <a href="{{ route('executiveservices') }}">EXECUTIVE SEARCH</a></li>
 				</ul>
 
 		<!-- <ul class="w3agile_footer_grid_list">

@@ -8,10 +8,10 @@
 	<a href="{{ route('digitalizedvideo') }}" class="list-group-item">Digitalized Video Assessment Interview</a>
 	<a href="{{ route('recruitmentprocess') }}" class="list-group-item">Recruitment Process Outsourcing
 	<a href="{{ route('internationalrecruitment') }}" class="list-group-item">International Recruitment</a>
-	<a href="{{ route('hr-services') }}" class="list-group-item">HR Services</a>
+	<a href="{{ route('hr-services') }}" class="list-group-item">Pre-employment Tests</a>
 	<a href="{{ route('labour-market-research') }}" class="list-group-item">Labour Market Research</a>
 	<a href="{{ route('salaryandremuneration') }}" class="list-group-item">Salaries & Remuneration Bench Marking</a>
-	<a href="{{ route('executiveservices') }}" class="list-group-item">Executive Services</a>
+	<a href="{{ route('executiveservices') }}" class="list-group-item">Executive Search</a>
 
 	<a class="list-group-item active text-center">SECTORS</a>
 	@foreach (App\Admin\Sector::all() as $sector)

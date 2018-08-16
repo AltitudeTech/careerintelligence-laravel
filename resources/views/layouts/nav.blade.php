@@ -56,10 +56,10 @@
 						<li><a href="{{ route('digitalizedvideo') }}">Video Assessment and Interview</a></li>
 						<li><a href="{{ route('recruitmentprocess') }}">Recruitment Process Outsourcing</a></li>
 						<li><a href="{{ route('internationalrecruitment') }}">International Recruitment</a></li>
-						<li><a href="{{ route('hr-services') }}">HR Services</a></li>
+						<li><a href="{{ route('hr-services') }}">Pre-employment Tests</a></li>
 						<li><a href="{{ route('labour-market-research') }}">Labour Market Research</a></li>
 						<li><a href="{{ route('salaryandremuneration') }}">Salaries & Remuneration Bench marking</a></li>
-						<li><a href="{{ route('executiveservices') }}">Executive Services</a></li>
+						<li><a href="{{ route('executiveservices') }}">Executive Search</a></li>
 					</ul>
 			  </li>
 				<li class="dropdown

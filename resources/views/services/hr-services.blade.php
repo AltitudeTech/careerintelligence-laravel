@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<!-- //header -->
-					<h2>HR Services</h2>
+					<h2>Pre-employment Tests</h2>
 		</div>
 	</div>
 

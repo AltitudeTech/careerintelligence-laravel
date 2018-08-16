@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title','Executive Services')
+@section('title','Executive Search')
 
 @section('css')
 	@parent
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<!-- //header -->
-					<h2>Executive Services</h2>
+					<h2>Executive Search</h2>
 		</div>
 	</div>
 

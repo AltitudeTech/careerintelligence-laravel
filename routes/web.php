@@ -149,7 +149,7 @@ Route::prefix('services')->group(function () {
 	})->name('digitalizedvideo') ;
 
 	Route::get('executiveservices', function(){
-		return view('services.executiveservices')->with('title', 'Executive Services');
+		return view('services.executiveservices')->with('title', 'Executive Search');
 	})->name('executiveservices') ;
 
 	Route::get('featureddigitalcampaign', function(){
@@ -161,7 +161,7 @@ Route::prefix('services')->group(function () {
 	})->name('internships') ;
 
 	Route::get('hr-services', function(){
-		return view('services.hr-services')->with('title', 'HR Services');
+		return view('services.hr-services')->with('title', 'Pre-employment Tests');
 	})->name('hr-services') ;
 
 	Route::get('labour-market-research', function(){

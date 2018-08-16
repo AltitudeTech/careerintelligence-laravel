@@ -328,7 +328,7 @@
 						<!-- <i class="fa fa-signing" aria-hidden="true"></i> -->
 					</div>
 					<div class="wthree-services-info">
-						<h5><a href="{{ route('hr-services') }}">HR Services</a></h5>
+						<h5><a href="{{ route('hr-services') }}">Pre-employment Tests</a></h5>
 						<span></span>
 					</div>
 				</div>
@@ -377,7 +377,7 @@
 						<!-- <i class="fa fa-suitcase" aria-hidden="true"></i> -->
 					</div>
 					<div class="wthree-services-info">
-						<h5><a href="{{ route('executiveservices') }}">Executive Services</a></h5>
+						<h5><a href="{{ route('executiveservices') }}">Executive Search</a></h5>
 						<span></span>
 					</div>
 				</div>
