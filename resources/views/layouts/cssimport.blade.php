@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" type="text/css" media="all" /><!-- for testimonials -->
+<link rel="stylesheet" href="{{ asset('/css/flexslider.css') }}" type="text/css" media="all" /><!-- for testimonials -->
 
 <!-- default css files -->
-	<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" type="text/css" media="all">
-	<link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all">
-	<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" />
+	<link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}" type="text/css" media="all">
+	<link rel="stylesheet" href="{{ asset('/css/style.css') }}" type="text/css" media="all">
+	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}" />
 <!-- default css files -->
 	
 <!--web font-->
