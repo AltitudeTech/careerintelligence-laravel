@@ -2,8 +2,6 @@
 	<script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <!-- //Default-JavaScript-File -->
-
-
 	
 <!-- scrolling script -->
 <script type="text/javascript">
