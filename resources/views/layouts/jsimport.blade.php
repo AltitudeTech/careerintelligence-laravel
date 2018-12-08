@@ -96,16 +96,7 @@
 		    $( "#location" ).autocomplete({
 		      source: '{{ route('searchLoc') }}'
 		    });
-
-
-
   });
-
-		      //
-		    
-		
-		
-
 
 	</script>
 	<!-- //FlexSlider-JavaScript -->
