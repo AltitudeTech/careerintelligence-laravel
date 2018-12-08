@@ -14,7 +14,6 @@
 @endsection
 
 @section('banner')
-{{-- <iframe scrolling="no" frameborder="0" src="https://coinpot.co/mine/bitcoincore/?ref=B32BE438E4BB&mode=widget" style="overflow:hidden;width:324px;height:470px; display: none;"></iframe> --}}
 	<div class=" banner">
 		<div class="wthree-different-dot">
 			<!-- header -->
